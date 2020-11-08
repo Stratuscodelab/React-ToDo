@@ -1,0 +1,7 @@
+
+//This will add the bin icon and delete note.
+
+<DeleteForeverIcon onClick={event => db.collection('todos').doc(props.todo.id).delete()} />
+
+---------------
+
